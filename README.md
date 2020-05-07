@@ -2,7 +2,7 @@
 
 Ce projet est là pour me permettre d'expérimenter SpaCy et ses fonctionnalités
 
-Les dévelopemments sont réalisés avec l'éditeur PyCharm associé à un environnement virtuel Anaconda qui permet de déployer Spacy.
+Les développements sont réalisés avec l'éditeur PyCharm associé à un environnement virtuel Anaconda qui permet de déployer Spacy.
 
 source : https://spacy.io/usage <br>
 conda install -c conda-forge spacy <br>
