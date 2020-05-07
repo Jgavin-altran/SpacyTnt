@@ -10,8 +10,9 @@ texte_doc = nlp(texte_txt)
 
 
 for token in texte_doc:
-    print(token.lemma_, "\t", token.pos, "\t", token.tag_, "\t", token.dep_, "\t",
-          token.shape_, "\t", token.is_alpha, "\t", token.is_stop)
+    if token.is_alpha: # ne conserve que les motse
+        print(token.lemma_, "\t", token.is_alpha, "\t", token.is_stop)
+
 # print([token.lemma_ for token in texte_doc])
 # print([token.text for token in texte_doc])
 # print([sentence for sentence in list(texte_doc)])
